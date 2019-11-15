@@ -19,7 +19,7 @@ produces an output with the same size as input but the no. of kernels as N. It i
 be 2 pixels less than the input to the kernel. A 3x3 kernel can be used to derive kernels of bigger size and so it is a good kernel
 size to use.
 
-![3x3 Convolution](./images/kernel.png = 460x280)
+<img src="./images/kernel.png" alt="3x3 Convolution" width="460" height="280"/>
 
 **Feature Maps** - A single channel can be called a feature map.
 eg. A feature map can be a collection of all images of eyes given an image of a group of people.

@@ -13,13 +13,13 @@ set of images given as input.
 **1x1 Convolution** - It is a 1x1xN matrix where N represets no. of kernels.A 1x1 kernel visits each pixel of the input and
 produces an output with the same size as input but the no. of kernels as N. It is mostly used for dimentionality reduction.
 
-![1x1 Convolution](./images/1x1.png)
+<img src="./images/1x1.png " alt="1x1 Convolution" width="460" height="280"/>
 
 **3x3 Convolution** - It is 3x3 matrix which converts 3x3 pixels of an image into a single pixel.Output of of 3x3 kernel will always
 be 2 pixels less than the input to the kernel. A 3x3 kernel can be used to derive kernels of bigger size and so it is a good kernel
 size to use.
 
-![3x3 Convolution](./images/kernel.png)
+![3x3 Convolution](./images/kernel.png = 460x280)
 
 **Feature Maps** - A single channel can be called a feature map.
 eg. A feature map can be a collection of all images of eyes given an image of a group of people.
@@ -28,4 +28,4 @@ eg. A feature map can be a collection of all images of eyes given an image of a 
 
 **Receptive Field** - It is the no. of pixels that a pixel in a particular layer has seen.The receptive field can be local or global. 
 
-![Receptive Field](./images/receptive-field.jpg)
+<img src="./images/receptive-field.jpg" alt="Receptive Field" width="460" height="280"/>

@@ -1,17 +1,16 @@
 score = [0.03926073323299575, 0.9923]
 
-**Convolution** - It is a process of tranforming a set of pixels of an image as a single pixel by performing dot product on 
+**Convolution** - It is a process of tranforming a set of pixels of an image to a single pixel by performing dot product of 
 the convolution filter and image pixels.
 
 ![Convolution](./images/convolution.jpg)
 
-**Filters/Kernels** - These are feature extractors which extract a particular feature such as an edge, curve etc from the
-set of images given as input.
+**Filters/Kernels** - These are feature extractors which extract a particular feature such as an horizontal edge, vertical edge, curve etc from the set of images given as input.
 
 **Epochs** - An epoch is one forward propagation + backpropagation in a neural network.
 
 **1x1 Convolution** - It is a 1x1xN matrix where N represets no. of kernels.A 1x1 kernel visits each pixel of the input and
-produces an output with the same size as input but the no. of kernels as N. It is mostly used for dimentionality reduction.
+produces an output with the same width and height as input but the depth of N. It is mostly used for dimentionality reduction.
 
 <img src="./images/1x1.png " alt="1x1 Convolution" width="460" height="280"/>
 

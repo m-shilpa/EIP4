@@ -3,7 +3,7 @@ score = [0.03926073323299575, 0.9923]
 **Convolution** - It is a process of tranforming a set of pixels of an image as a single pixel by performing dot product on 
 the convolution filter and image pixels.
 
-![Convolution]()
+![](./images/convolution.jpg)
 
 **Filters/Kernels** - These are feature extractors which extract a particular feature such as an edge, curve etc from the
 set of images given as input.

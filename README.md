@@ -1,3 +1,5 @@
+Team members- Shilpa M , Sushmitha M Katti
+
 score = [0.03926073323299575, 0.9923]
 
 **Convolution** - It is a process of tranforming a set of pixels of an image to a single pixel by performing dot product of 

@@ -25,7 +25,7 @@ produces an output with the same width and height as input but the depth of N. I
 
 **3x3 Convolution** - It is 3x3 matrix which converts 3x3 pixels of an image into a single pixel.Output of of 3x3 kernel will always
 be 2 pixels less than the input to the kernel. A 3x3 kernel can be used to derive kernels of bigger size and so it is a good kernel
-size to use.
+size to choose.
 
 <img src="./images/kernel.png" alt="3x3 Convolution" width="460" height="280"/>
 

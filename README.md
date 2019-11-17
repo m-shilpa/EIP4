@@ -1,4 +1,6 @@
-Team members- Shilpa M , Sushmitha M Katti
+Team members:
+Shilpa M - Monday batch (online)
+Sushmitha M Katti - Friday batch (online)
 
 score = [0.03926073323299575, 0.9923]
 

@@ -1,6 +1,11 @@
 Total params: 14,586
+
 Trainable params: 14,366
+
 Non-trainable params: 220
+
+**Score** : 99.49
+
 
 **Logs of the 20 epoch**
 
@@ -88,7 +93,18 @@ Epoch 00020: LearningRateScheduler setting learning rate to 0.000424869.
 60000/60000 [==============================] - 11s 178us/step - loss: 0.0954 - acc: 0.9571 - val_loss: 0.0173 - val_acc: 0.9949
 
 
-**Score** : 99.49
 
-**strategy taken to achieve the said results** :
+**Strategy taken to achieve the results** :
+
+1. Went through all the 8 DNN code. 
+
+2. Worked on the Eighth DNN code to achieve the target.
+
+3. Decreased the no. of kernels in the 2nd convolution layer from 32 to 20 to decrease the parameters to 14,586.
+
+4. Used the use_bias = False to exclude bias from the layer.
+
+5. Trained the model for 20 epoch.
+
+6. Achieved an accuracy of 99.49.
 

@@ -7,7 +7,7 @@ Non-trainable params: 220
 **Score** : 99.49
 
 
-**Logs of the 20 epoch**
+**Logs of the 20 epoch:**
 
 
 Train on 60000 samples, validate on 10000 samples

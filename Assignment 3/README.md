@@ -7,26 +7,39 @@
 model = Sequential()
 
 model.add(SeparableConv2D(32, kernel_size=(3, 3), activation='relu', strides=(1,1), input_shape=(32,32,3))) # o/p: 30, r: 3
+
 model.add(Convolution2D(32, 1, 1))  # o/p: 30, r: 3
+
 model.add(BatchNormalization())
+
 model.add(Dropout(0.15))
 
 model.add(SeparableConv2D(64, kernel_size=(3, 3), activation='relu',strides=(2,2))) # o/p: 14, r: 5
+
 model.add(Convolution2D(64, 1, 1))  # o/p: 14, r: 5
+
 model.add(BatchNormalization())
+
 model.add(Dropout(0.15))
 
 model.add(SeparableConv2D(128, kernel_size=(3, 3), activation='relu',strides=(1,1))) # o/p: 12, r: 9
+
 model.add(Convolution2D(128, 1, 1)) # o/p: 12, r: 9
+
 model.add(BatchNormalization())
+
 model.add(Dropout(0.15))
 
 model.add(SeparableConv2D(256, kernel_size=(3, 3), activation='relu',strides=(2,2))) # o/p: 5, r: 13
+
 model.add(BatchNormalization())
+
 model.add(Dropout(0.15))
 
 model.add(SeparableConv2D(10, kernel_size=(5, 5), activation='relu',strides=(1,1))) # o/p: 1, r: 29
+
 model.add(Flatten())
+
 model.add(Activation('softmax'))
 
 **Logs**

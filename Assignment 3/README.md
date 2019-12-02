@@ -56,6 +56,7 @@ model.add(Activation('softmax'))
 
 
 **Logs**
+
 Epoch 1/50
 
 Epoch 00001: LearningRateScheduler setting learning rate to 0.003.

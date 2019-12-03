@@ -1,6 +1,13 @@
+**Team Members**
+
+Shilpa M - Monday Online Batch
+
+Sushmitha M Katti - Friday Online Batch
+
+
 **Base Model Accuracy:** 81.85
 
-**My Model Accuracy:** 81.70 
+**My Model Accuracy:** 82.24 (48th epoch) 
 
 **Model**
 

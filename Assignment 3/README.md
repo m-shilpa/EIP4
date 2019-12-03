@@ -1,6 +1,6 @@
-**Base Model - Validation Accuracy:** 81.85
+**Base Model Accuracy:** 81.85
 
-**My Model - Validation Accuracy:** 81.70
+**My Model Accuracy:** 81.70 
 
 **Model**
 
